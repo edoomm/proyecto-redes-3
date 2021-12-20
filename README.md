@@ -9,8 +9,7 @@ El desarrollo consistirá en 3 etapas:
 3. Implementación en _GNS3_ en Azure
 
 ## GNS3
-Se utilizó el router `c7200` con los siguientes módulos:
-- `PA-GE`
-- `PA-2FE-TX`
-- `PA-4T`
-- `PA-8T`
+Se utilizó un router de la familia `c3600` con los siguientes módulos:
+- `NM-16ESW`
+- `NM-4E`
+- `NM-4T`
