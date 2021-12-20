@@ -1,0 +1,11 @@
+FROM ubuntu
+RUN apt update
+RUN apt update
+ENV TZ=America/Mexico_City
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+RUN apt install vim git curl -y
+RUN apt install iputils-ping -y
+RUN apt install iproute2 -y
+RUN apt install net-tools -y
+RUN apt install systemctl -y
+RUN apt install apache2 -y
